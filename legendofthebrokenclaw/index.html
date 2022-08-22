@@ -16,11 +16,11 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <link rel="shortcut icon" href="images/polarisradio---legend-of-the-broken-claw-favicon.ico?crc=244063915"/>
   <title>PolarisRadio - Legend of the Broken Claw</title>
   <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=487718350"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=3937809178" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=4200829458"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=103997230" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
-  <link rel="stylesheet" type="text/css" href="css/iefonts_index.css?crc=113047843"/>
+  <link rel="stylesheet" type="text/css" href="css/iefonts_index.css?crc=4222667811"/>
   <![endif]-->
   <!-- Other scripts -->
   <script type="text/javascript">
@@ -32,23 +32,91 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
  <body>
 
   <div class="clearfix" id="page"><!-- column -->
-   <div class="clip_frame colelem" id="u104"><!-- image -->
-    <img class="block" id="u104_img" src="images/album-logo-graphics-01.png?crc=4126252959" alt="" width="920" height="110"/>
+   <div class="position_content" id="page_position_content">
+    <div class="clearfix colelem" id="pu262"><!-- group -->
+     <div class="grpelem" id="u262"><!-- custom html -->
+      <style>
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+</style>
+
+<video id="background-video" autoplay loop muted>
+<source src="https://polarisrad.io/assets/wavesbg.mp4" type="video/mp4">
+</video>
+     </div>
+     <div class="clip_frame grpelem" id="u164"><!-- image -->
+      <img class="block" id="u164_img" src="images/lotbc-scroll-alpha.png?crc=332946773" alt="" width="681" height="1058"/>
+     </div>
+     <a class="nonblock nontext clip_frame grpelem" id="u94" href="http://polarisrad.io"><!-- image --><img class="block" id="u94_img" src="images/polarisradio-logo_white.png?crc=3885757228" alt="" width="270" height="48"/></a>
+     <div class="clearfix grpelem" id="u114-4"><!-- content -->
+      <p>An Adventure by</p>
+     </div>
+     <div class="clip_frame grpelem" id="u154"><!-- image -->
+      <img class="block" id="u154_img" src="images/lotbc-alpha.png?crc=4069110550" alt="" width="920" height="565"/>
+     </div>
+    </div>
+    <div class="colelem" id="u174"><!-- custom html -->
+     <style>
+h6 {
+  text-align: center;
+  font-size: 30px;
+font-family: monospace;
+font-weight: bold;
+color: white;
+  margin-top: 20px;
+}
+</style>
+
+<h6 id="timer"></h6>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Oct 1, 2022 20:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("timer").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("timer").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+    </div>
+    <div class="ts-Default-Link-Style--copy clearfix colelem" id="u139-18"><!-- content -->
+     <p>FOLLOW ON <a class="nonblock" href="http://polarisradio.bandcamp.com"><span id="u139-2">BANDCAMP</span></a><span id="u139-4">, </span><a class="nonblock" href="http://open.spotify.com/artist/5bS5WHfEbuM1DN1abxfRch?si=iDWgTIwxQxic-HPHjy1k2g"><span id="u139-5">SPOTIFY</span></a><span id="u139-7">, </span><a class="nonblock" href="https://www.facebook.com/polarisradionz"><span id="u139-8">FACEBOOK</span></a>, <a class="nonblock" href="https://instagram.com/polarisradionz"><span id="u139-11">INSTAGRAM</span></a>, or <a class="nonblock" href="https://www.youtube.com/c/polarisradio"><span id="u139-14">YOUTUBE</span></a></p>
+    </div>
+    <div class="ts-Default-Link-Style--copy clearfix colelem" id="u149-6"><!-- content -->
+     <p>© Copyright 2022 PolarisRadio<br/>All Rights Reserved.</p>
+    </div>
+    <div class="verticalspacer" data-offset-top="1557" data-content-above-spacer="1557" data-content-below-spacer="61"></div>
    </div>
-   <div class="colelem" id="u144"><!-- custom html -->
-    <iframe width="920" height="402" src="https://www.youtube.com/embed/rbXCrpEAMos?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-   </div>
-   <div class="clearfix colelem" id="u114-4"><!-- content -->
-    <p>An Adventure by</p>
-   </div>
-   <a class="nonblock nontext clip_frame colelem" id="u94" href="http://polarisrad.io"><!-- image --><img class="block" id="u94_img" src="images/polarisradio-logo_white.png?crc=3885757228" alt="" width="270" height="48"/></a>
-   <div class="clearfix colelem" id="u128-4"><!-- content -->
-    <p>More Information Coming Soon.</p>
-   </div>
-   <div class="ts-Default-Link-Style--copy clearfix colelem" id="u139-18"><!-- content -->
-    <p>FOLLOW ON <a class="nonblock" href="http://polarisradio.bandcamp.com"><span id="u139-2">BANDCAMP</span></a><span id="u139-4">, </span><a class="nonblock" href="http://open.spotify.com/artist/5bS5WHfEbuM1DN1abxfRch?si=iDWgTIwxQxic-HPHjy1k2g"><span id="u139-5">SPOTIFY</span></a><span id="u139-7">, </span><a class="nonblock" href="https://www.facebook.com/polarisradionz"><span id="u139-8">FACEBOOK</span></a>, <a class="nonblock" href="https://instagram.com/polarisradionz"><span id="u139-11">INSTAGRAM</span></a>, or <a class="nonblock" href="https://www.youtube.com/c/polarisradio"><span id="u139-14">YOUTUBE</span></a></p>
-   </div>
-   <div class="verticalspacer" data-offset-top="923" data-content-above-spacer="923" data-content-below-spacer="61"></div>
   </div>
   <!-- Other scripts -->
   <script type="text/javascript">

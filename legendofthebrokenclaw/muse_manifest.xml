@@ -1,8 +1,8 @@
-<manifest alg="2" build="2018.1.1.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="http://polarisrad.io/legendofthebrokenclaw" resolutions="1x" timestamp="1660989078022">
+<manifest alg="2" build="2018.1.1.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="http://polarisrad.io/legendofthebrokenclaw" resolutions="1x" timestamp="1661164629411">
   <folder name="css">
-    <file name="site_global.css" crc="487718350"/>
-    <file name="index.css" crc="3937809178" ref="index"/>
-    <file name="iefonts_index.css" crc="113047843" ref="index"/>
+    <file name="site_global.css" crc="4200829458"/>
+    <file name="index.css" crc="103997230" ref="index"/>
+    <file name="iefonts_index.css" crc="4222667811" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -14,12 +14,15 @@
   </folder>
   <folder name="images">
     <file name="polarisradio---legend-of-the-broken-claw-favicon.ico" crc="244063915" ref="index"/>
-    <file name="album-logo-graphics-01.png" crc="4126252959" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
     <file name="polarisradio-logo_white.png" crc="3885757228" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
+    <file name="lotbc-alpha.png" crc="4069110550" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="lotbc-scroll-alpha.png" crc="332946773" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="4248200778" seo="true" mt="1660989065528" redirect="true"/>
+  <file name="index.html" crc="510265438" seo="true" mt="1661164597707" redirect="true"/>
 </manifest>

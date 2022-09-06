@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://polarisrad.io/legendofthebrokenclaw/index.html</loc>
-    <lastmod>2022-08-22</lastmod>
+    <lastmod>2022-09-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -13,6 +13,9 @@
     </image:image>
     <image:image>
       <image:loc>http://polarisrad.io/legendofthebrokenclaw/images/lotbc-scroll-alpha.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://polarisrad.io/legendofthebrokenclaw/images/alpha3-crop-u279.png</image:loc>
     </image:image>
   </url>
 </urlset>

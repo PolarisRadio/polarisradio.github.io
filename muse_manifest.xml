@@ -1,10 +1,14 @@
-<manifest alg="2" build="2018.1.1.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="http://www.polarisrad.io" resolutions="1x" timestamp="1661164966303">
+<manifest alg="2" build="2018.1.1.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="http://www.polarisrad.io" resolutions="1x" timestamp="1662454667971">
+  <folder name="fonts">
+    <file name="opensans-light-webfont.woff" crc="4622182"/>
+    <file name="anyconv.com__opensans-light.eot" crc="325969665"/>
+    <file name="opensans-bold.woff" crc="267279282"/>
+    <file name="anyconv.com__opensans-bold.eot" crc="3886520683"/>
+  </folder>
   <folder name="css">
     <file name="site_global.css" crc="3838122436"/>
-    <file name="polarisradio--gigs.css" crc="4247402698" ref="polarisradio--gigs"/>
-    <file name="iefonts_polarisradio--gigs.css" crc="4192936200" ref="polarisradio--gigs"/>
-    <file name="index.css" crc="163943929" ref="index"/>
-    <file name="iefonts_index.css" crc="4183408201" ref="index"/>
+    <file name="polarisradio--gigs.css" crc="145184802" ref="polarisradio--gigs"/>
+    <file name="index.css" crc="46514631" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:polarisradio--gigs"/>
@@ -30,6 +34,6 @@
       <caption webpage="polarisradio--gigs" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="3802331159" seo="true" mt="1661164940255" redirect="true"/>
-  <file name="polarisradio--gigs.html" crc="4238398887" seo="true" mt="1661164814136" redirect="true"/>
+  <file name="index.html" crc="3884073391" seo="true" mt="1662453571406" redirect="true"/>
+  <file name="polarisradio--gigs.html" crc="4015720452" seo="true" mt="1662453576237" redirect="true"/>
 </manifest>

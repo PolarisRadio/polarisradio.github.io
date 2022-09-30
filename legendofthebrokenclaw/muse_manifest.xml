@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.1.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="http://polarisrad.io/legendofthebrokenclaw" resolutions="1x" timestamp="1662454637712">
+<manifest alg="2" build="2018.1.1.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="http://polarisrad.io/legendofthebrokenclaw" resolutions="1x" timestamp="1664574592747">
   <folder name="fonts">
     <file name="opensans-light-webfont.woff" crc="4622182"/>
     <file name="anyconv.com__opensans-light.eot" crc="325969665"/>
@@ -7,7 +7,7 @@
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="4200829458"/>
-    <file name="index.css" crc="3869000852" ref="index"/>
+    <file name="index.css" crc="177896764" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -25,12 +25,7 @@
     <file name="lotbc-alpha.png" crc="4069110550" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="lotbc-scroll-alpha.png" crc="332946773" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="alpha3-crop-u279.png" crc="52360234" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
+    <file name="lotbc-scroll-alpha-u164.png" crc="338759407" ref="index"/>
   </folder>
-  <file name="index.html" crc="86698582" seo="true" mt="1662454623468" redirect="true"/>
+  <file name="index.html" crc="4072870219" seo="true" mt="1664574570262" redirect="true"/>
 </manifest>

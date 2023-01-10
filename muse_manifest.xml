@@ -1,14 +1,16 @@
-<manifest alg="2" build="2018.1.1.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="http://www.polarisrad.io" resolutions="1x" timestamp="1662454667971">
+<manifest alg="2" build="2018.1.1.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="http://www.polarisrad.io" resolutions="1x" timestamp="1673355566752">
   <folder name="fonts">
     <file name="opensans-light-webfont.woff" crc="4622182"/>
     <file name="anyconv.com__opensans-light.eot" crc="325969665"/>
     <file name="opensans-bold.woff" crc="267279282"/>
     <file name="anyconv.com__opensans-bold.eot" crc="3886520683"/>
+    <file name="opensans-regular.woff" crc="3819783335"/>
+    <file name="anyconv.com__opensans-regular.eot" crc="49158747"/>
   </folder>
   <folder name="css">
-    <file name="site_global.css" crc="3838122436"/>
-    <file name="polarisradio--gigs.css" crc="145184802" ref="polarisradio--gigs"/>
-    <file name="index.css" crc="46514631" ref="index"/>
+    <file name="site_global.css" crc="4163119398"/>
+    <file name="polarisradio--gigs.css" crc="3988240606" ref="polarisradio--gigs"/>
+    <file name="index.css" crc="140230379" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:polarisradio--gigs"/>
@@ -20,20 +22,18 @@
     <file name="require.js" crc="4177726516" ref="index:polarisradio--gigs"/>
   </folder>
   <folder name="images">
-    <file name="polarisradio-favicon.ico" crc="244063915" ref="index"/>
+    <file name="polarisradio-favicon.ico" crc="4250523837" ref="index"/>
     <file name="polarisradio-logo_white.png" crc="165541844" seo="true" ref="index:polarisradio--gigs">
       <caption webpage="index" alt=""/>
       <caption webpage="polarisradio--gigs" alt=""/>
     </file>
-    <file name="album-logo-graphics-01-u19119.png" crc="4065128902" ref="index"/>
-    <file name="promo-2022-2-nologo.jpg" crc="3761706773" ref="index">
+    <file name="album-logo-graphics-01-u19119.png" crc="186465640" ref="index"/>
+    <file name="polarisradio--gigs-favicon.ico" crc="4250523837" ref="polarisradio--gigs"/>
+    <file name="pr-paper.jpg" crc="4063386797" ref="index:polarisradio--gigs">
       <caption webpage="index" alt=""/>
-    </file>
-    <file name="polarisradio--gigs-favicon.ico" crc="244063915" ref="polarisradio--gigs"/>
-    <file name="pr-overlook-2022.jpg" crc="3842295504" ref="polarisradio--gigs">
       <caption webpage="polarisradio--gigs" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="3884073391" seo="true" mt="1662453571406" redirect="true"/>
-  <file name="polarisradio--gigs.html" crc="4015720452" seo="true" mt="1662453576237" redirect="true"/>
+  <file name="index.html" crc="371940946" seo="true" mt="1673355522186" redirect="true"/>
+  <file name="polarisradio--gigs.html" crc="74879668" seo="true" mt="1673355514367" redirect="true"/>
 </manifest>

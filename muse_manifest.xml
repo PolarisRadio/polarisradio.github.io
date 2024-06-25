@@ -1,8 +1,8 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="http://www.polarisrad.io" resolutions="1x" timestamp="1719315211717">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="http://www.polarisrad.io" resolutions="1x" timestamp="1719317562160">
   <folder name="css">
-    <file name="site_global.css" crc="3838122436"/>
-    <file name="polarisradio--gigs.css" crc="3848551726" ref="polarisradio--gigs"/>
-    <file name="index.css" crc="3947572031" ref="index"/>
+    <file name="site_global.css" crc="4163119398"/>
+    <file name="polarisradio--gigs.css" crc="3826093510" ref="polarisradio--gigs"/>
+    <file name="index.css" crc="94671310" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="opensans-light-webfont.woff" crc="4622182"/>
@@ -20,7 +20,7 @@
     <file name="require.js" crc="4177726516" ref="index:polarisradio--gigs"/>
   </folder>
   <folder name="images">
-    <file name="polarisradio-favicon.ico" crc="4250523837" ref="index"/>
+    <file name="polarisradio-favicon.ico" crc="4211476565" ref="index"/>
     <file name="pr-logo-24.png" crc="449568862" seo="true" ref="index:polarisradio--gigs">
       <caption webpage="index" alt=""/>
       <caption webpage="polarisradio--gigs" alt=""/>
@@ -29,11 +29,11 @@
     <file name="11.jpg" crc="508674913" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="polarisradio--gigs-favicon.ico" crc="4250523837" ref="polarisradio--gigs"/>
+    <file name="polarisradio--gigs-favicon.ico" crc="4211476565" ref="polarisradio--gigs"/>
     <file name="polarisradio (58 of 59).jpg" crc="4105402949" ref="polarisradio--gigs">
       <caption webpage="polarisradio--gigs" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="370339457" seo="true" mt="1719313537658" redirect="true"/>
-  <file name="polarisradio--gigs.html" crc="4243416677" seo="true" mt="1719315122181" redirect="true"/>
+  <file name="index.html" crc="331214953" seo="true" mt="1719317490078" redirect="true"/>
+  <file name="polarisradio--gigs.html" crc="4022596754" seo="true" mt="1719317510406" redirect="true"/>
 </manifest>
